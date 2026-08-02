@@ -1,0 +1,42 @@
+{{ define "main" }}
+<section class="hero">
+  <h1 class="hero-title">{{ .Site.Title }}</h1>
+  <p class="hero-subtitle">用 AI 驱动旋律，用原创表达态度，用短视频记录灵感。</p>
+  <p class="hero-desc">AI 音乐创作者 · 独立音乐人 · 短视频创作者</p>
+</section>
+
+<section class="cards-section">
+  <div class="cards">
+    <a class="card" href="{{ "works/" | relURL }}">
+      <span class="card-icon">🎵</span>
+      <h3>AI 音乐</h3>
+      <p>借助人工智能探索音乐创作的新边界，生成独一无二的旋律与编曲。</p>
+    </a>
+    <a class="card" href="{{ "works/" | relURL }}">
+      <span class="card-icon">🎹</span>
+      <h3>原创音乐</h3>
+      <p>从词曲到制作，独立完成全流程创作，每一首歌都是真实情感的表达。</p>
+    </a>
+    <a class="card" href="{{ "works/" | relURL }}">
+      <span class="card-icon">🎬</span>
+      <h3>短视频</h3>
+      <p>用视觉与听觉的交织，讲述有温度的故事，让音乐看得见。</p>
+    </a>
+  </div>
+</section>
+
+<section class="latest-works">
+  <h2 class="section-title">最新作品</h2>
+  <div class="post-list">
+    {{ $works := where .Site.RegularPages "Section" "works" }}
+    {{ range first 3 $works }}
+    <article class="post-card">
+      <h3 class="post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+      <time class="post-date">{{ .Date.Format "2006-01-02" }}</time>
+      <p class="post-summary">{{ .Summary | truncate 120 }}</p>
+    </article>
+    {{ end }}
+  </div>
+  <a class="btn-view-all" href="{{ "works/" | relURL }}">查看全部作品 &rarr;</a>
+</section>
+{{ end }}
