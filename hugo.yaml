@@ -1,0 +1,49 @@
+baseURL: https://wmxmusic.github.io
+languageCode: zh
+defaultContentLanguage: zh
+title: WMx Music
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableEmoji: true
+hasCJKLanguage: true
+
+paginate:
+  pagerSize: 10
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+menu:
+  main:
+    - name: 首页
+      url: /
+      weight: 1
+    - name: 作品
+      url: /works/
+      weight: 2
+    - name: 关于
+      url: /about/
+      weight: 3
+
+params:
+  author: wmxmusic
+  description: "WMx Music - AI音乐 × 原创音乐 × 短视频创作"
+  ShowBreadCrumbs: true
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+  defaultTheme: auto
+  DateFormat: "2006-01-02"
+
+  homeInfoParams:
+    Title: "WMx Music"
+    Content: "用 AI 驱动旋律，用原创表达态度，用短视频记录灵感。"
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/wmxmusic"
