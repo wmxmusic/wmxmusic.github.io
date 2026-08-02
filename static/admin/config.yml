@@ -4,6 +4,7 @@ backend:
   branch: master
   base_url: https://api.netlify.com
   auth_endpoint: auth
+  site_domain: peppy-torrone-c4d274.netlify.app
 
 media_folder: static/images
 public_folder: /images
