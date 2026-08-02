@@ -1,7 +1,15 @@
 ---
-title: 关于我
-date: 2026-08-02
+AIGC:
+    Label: "1"
+    ContentProducer: 001191440300708461136T1XGW3
+    ProduceID: 2dc02c410d4799a8564beefc54554009_8e81fba18e1411f1b8c1525400826444
+    ReservedCode1: cjdYFUrHufAImK6Q0S08N1tkyfOX6lwdwghmqo+R9XMFcIvXAhyghaR4bTpDtVI44fIsVkZGILOC7KRuY3dRkjmuN+R3oSrsD0V9QPlWx5dHgkbaQhS5K2TbqRBgO9VE0QDttAhA1EDdtHC6nrB+txk2OtGOZcsDN3WyOK3e6ABgrlIy3Im024FgoFM=
+    ContentPropagator: 001191440300708461136T1XGW3
+    PropagateID: 2dc02c410d4799a8564beefc54554009_8e81fba18e1411f1b8c1525400826444
+    ReservedCode2: cjdYFUrHufAImK6Q0S08N1tkyfOX6lwdwghmqo+R9XMFcIvXAhyghaR4bTpDtVI44fIsVkZGILOC7KRuY3dRkjmuN+R3oSrsD0V9QPlWx5dHgkbaQhS5K2TbqRBgO9VE0QDttAhA1EDdtHC6nrB+txk2OtGOZcsDN3WyOK3e6ABgrlIy3Im024FgoFM=
 ---
+
+
 
 ## 关于 WMx Music
 
@@ -22,3 +30,4 @@ date: 2026-08-02
 - GitHub: [github.com/wmxmusic](https://github.com/wmxmusic)
 
 如果你对我的音乐感兴趣，或者有合作意向，欢迎随时联系我。
+*（内容由AI生成，仅供参考）*

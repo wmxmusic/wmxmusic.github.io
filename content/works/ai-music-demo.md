@@ -2,12 +2,14 @@
 AIGC:
     Label: "1"
     ContentProducer: 001191440300708461136T1XGW3
-    ProduceID: 2dc02c410d4799a8564beefc54554009_907430f88e1411f1b8c1525400826444
-    ReservedCode1: CwTXIavTE8mwuiuWsvO2OjA71Z6QTqFLrWxyiOAuaLATCb/5l55Wun04VSg3JICV3t5o1pONcwxxtyIxtYSiZI1oinQdgvArIU6hEgbunmGvEkKxDa/hnZa0Mu40ayftnsnBDURsDfxAySQV/UjnnsHRCLoEYuNJQvS5QAqZcTcFjedn3fu2ENq+acA=
+    ProduceID: 2dc02c410d4799a8564beefc54554009_99ef64a38e1511f1b8c1525400826444
+    ReservedCode1: JPMqpVIn63NEBsm1bfp9jwgv0keaHc7v++OAiEzplDcCcyGOTpcRGpbJYQVpESspOE5+d5FppDJeY0dcH5XfiCf8g+VScfXQUXcKJhPjTESPrcFGFhnTcaMSSNj7dm0+zw7Gn7oUt2xWwVh4mu+ts9N6p+eOH4wGSZcD9DTNYpMBfFfLMxdCuRTXck4=
     ContentPropagator: 001191440300708461136T1XGW3
-    PropagateID: 2dc02c410d4799a8564beefc54554009_907430f88e1411f1b8c1525400826444
-    ReservedCode2: CwTXIavTE8mwuiuWsvO2OjA71Z6QTqFLrWxyiOAuaLATCb/5l55Wun04VSg3JICV3t5o1pONcwxxtyIxtYSiZI1oinQdgvArIU6hEgbunmGvEkKxDa/hnZa0Mu40ayftnsnBDURsDfxAySQV/UjnnsHRCLoEYuNJQvS5QAqZcTcFjedn3fu2ENq+acA=
+    PropagateID: 2dc02c410d4799a8564beefc54554009_99ef64a38e1511f1b8c1525400826444
+    ReservedCode2: JPMqpVIn63NEBsm1bfp9jwgv0keaHc7v++OAiEzplDcCcyGOTpcRGpbJYQVpESspOE5+d5FppDJeY0dcH5XfiCf8g+VScfXQUXcKJhPjTESPrcFGFhnTcaMSSNj7dm0+zw7Gn7oUt2xWwVh4mu+ts9N6p+eOH4wGSZcD9DTNYpMBfFfLMxdCuRTXck4=
 ---
+
+
 
 
 
@@ -36,4 +38,5 @@ AIGC:
 ### 创作心得
 
 AI 音乐不是"一键生成"，而是创作者与算法之间的对话。好的提示词、精准的风格把控和后期人工打磨缺一不可。
+*（内容由AI生成，仅供参考）*
 *（内容由AI生成，仅供参考）*

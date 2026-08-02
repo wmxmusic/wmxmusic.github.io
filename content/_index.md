@@ -1,6 +1,15 @@
 ---
-title: 首页
+AIGC:
+    Label: "1"
+    ContentProducer: 001191440300708461136T1XGW3
+    ProduceID: 2dc02c410d4799a8564beefc54554009_8be9cd828e1411f1b8c1525400826444
+    ReservedCode1: 6cz5/EYb39qTOgnj+qt71ZmjDTJCQIGHB3DxW4g0XnutFy7KegZGboUSfX/rqcAYn7bBMHuBlHBTPRSliLf1+oNQTJp5HUlHA1xRq4S1vLHciesPVsWhxMMuzIP0mRBKMtBQuK7OO5KcIbEpoYdoggN59opvXWUQ3UumUmmyKoFy5sVVudZ/xNAYskI=
+    ContentPropagator: 001191440300708461136T1XGW3
+    PropagateID: 2dc02c410d4799a8564beefc54554009_8be9cd828e1411f1b8c1525400826444
+    ReservedCode2: 6cz5/EYb39qTOgnj+qt71ZmjDTJCQIGHB3DxW4g0XnutFy7KegZGboUSfX/rqcAYn7bBMHuBlHBTPRSliLf1+oNQTJp5HUlHA1xRq4S1vLHciesPVsWhxMMuzIP0mRBKMtBQuK7OO5KcIbEpoYdoggN59opvXWUQ3UumUmmyKoFy5sVVudZ/xNAYskI=
 ---
+
+
 
 ## 你好，我是 WMx
 
@@ -15,3 +24,4 @@ title: 首页
 欢迎浏览我的 [作品集](/works/)，也欢迎通过 [关于页面](/about/) 了解更多。
 
 > "音乐是灵魂的语言，AI 是它的新声带。"
+*（内容由AI生成，仅供参考）*

@@ -1,6 +1,15 @@
 ---
-title: 作品集
-layout: archives
+AIGC:
+    Label: "1"
+    ContentProducer: 001191440300708461136T1XGW3
+    ProduceID: 2dc02c410d4799a8564beefc54554009_8fa838da8e1411f1b8c1525400826444
+    ReservedCode1: Jgj6/NZH4EEFQsbXgcHeqfqwwywr2m5r3knqo+Z5vWkwrVfqjTKJf0QwLP7+X6Ns6FwIlwP7tUf5P3wNeWXfL5aCv5GmcMFXC2g8JTAQKobbPU1P4OX+humYcpmKHI8Wuf214+Iy89q4AD9Z436AhcE+nFPy6sJKm0zeQXIyCImQHUf1i2xYXW7sQTE=
+    ContentPropagator: 001191440300708461136T1XGW3
+    PropagateID: 2dc02c410d4799a8564beefc54554009_8fa838da8e1411f1b8c1525400826444
+    ReservedCode2: Jgj6/NZH4EEFQsbXgcHeqfqwwywr2m5r3knqo+Z5vWkwrVfqjTKJf0QwLP7+X6Ns6FwIlwP7tUf5P3wNeWXfL5aCv5GmcMFXC2g8JTAQKobbPU1P4OX+humYcpmKHI8Wuf214+Iy89q4AD9Z436AhcE+nFPy6sJKm0zeQXIyCImQHUf1i2xYXW7sQTE=
 ---
 
+
+
 这里收录了我的 AI 音乐、原创歌曲与短视频作品。点击下方各作品查看详情与试听。
+*（内容由AI生成，仅供参考）*
