@@ -1,0 +1,5 @@
+﻿<a href="{{ .url }}" class="work-card">
+    <div class="cover-art {{ if eq .category "ai" }}ai-cover{{ else if eq .category "original" }}original-cover{{ else }}video-cover{{ end }}">{{ .cover_emoji }}</div>
+    <h3>{{ .title }}</h3>
+    <span class="meta">{{ .date.Format "2006-01-02" }}</span>
+</a>

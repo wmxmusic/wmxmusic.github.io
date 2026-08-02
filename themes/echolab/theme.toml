@@ -1,0 +1,9 @@
+[theme]
+name = "EchoLab"
+license = "MIT"
+description = "EchoLab - Personal music portfolio theme for Hugo"
+homepage = "https://echolab.music"
+min_version = "0.120.0"
+
+[author]
+name = "wmxmusic"

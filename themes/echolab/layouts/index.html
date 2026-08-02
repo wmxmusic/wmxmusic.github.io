@@ -1,0 +1,42 @@
+﻿{{ define "main" }}
+{{ $aiWorks := where .Site.RegularPages "Params.category" "ai" }}
+{{ $originalWorks := where .Site.RegularPages "Params.category" "original" }}
+{{ $videoWorks := where .Site.RegularPages "Params.category" "video" }}
+<div class="container">
+    <h1 class="page-title">探索声音的边界</h1>
+    <p class="page-desc">AI音乐创作、原创编曲与短视频制作，用科技与艺术碰撞新的火花。</p>
+</div>
+{{ if $aiWorks }}
+<section class="featured-section">
+    <span class="page-badge" style="background:rgba(168,85,247,0.15);color:#c084fc;">AI Music</span>
+    <h2 class="page-title">AI音乐</h2>
+    <div class="works-grid">
+        {{ range first 3 $aiWorks.ByDate.Reverse }}
+            {{ partial "work-card.html" (dict "url" .RelPermalink "category" .Params.category "cover_emoji" .Params.cover_emoji "title" .Title "date" .Date) }}
+        {{ end }}
+    </div>
+</section>
+{{ end }}
+{{ if $originalWorks }}
+<section class="featured-section">
+    <span class="page-badge" style="background:rgba(245,158,11,0.15);color:#fbbf24;">Original</span>
+    <h2 class="page-title">原创音乐</h2>
+    <div class="works-grid">
+        {{ range first 3 $originalWorks.ByDate.Reverse }}
+            {{ partial "work-card.html" (dict "url" .RelPermalink "category" .Params.category "cover_emoji" .Params.cover_emoji "title" .Title "date" .Date) }}
+        {{ end }}
+    </div>
+</section>
+{{ end }}
+{{ if $videoWorks }}
+<section class="featured-section">
+    <span class="page-badge" style="background:rgba(6,182,212,0.15);color:#22d3ee;">Video</span>
+    <h2 class="page-title">短视频</h2>
+    <div class="works-grid">
+        {{ range first 3 $videoWorks.ByDate.Reverse }}
+            {{ partial "work-card.html" (dict "url" .RelPermalink "category" .Params.category "cover_emoji" .Params.cover_emoji "title" .Title "date" .Date) }}
+        {{ end }}
+    </div>
+</section>
+{{ end }}
+{{ end }}

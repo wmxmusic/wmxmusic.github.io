@@ -1,0 +1,12 @@
+﻿{{ define "main" }}
+<div class="container">
+    <span class="page-badge">{{ .Title }}</span>
+    <h1 class="page-title">{{ .Title }}</h1>
+    <p class="page-desc">{{ .Content }}</p>
+    <div class="works-grid">
+        {{ range .Pages.ByDate.Reverse }}
+            {{ partial "work-card.html" (dict "url" .RelPermalink "category" .Params.category "cover_emoji" .Params.cover_emoji "title" .Title "date" .Date) }}
+        {{ end }}
+    </div>
+</div>
+{{ end }}

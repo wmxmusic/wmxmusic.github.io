@@ -1,33 +1,32 @@
-baseURL: https://wmxmusic.github.io
-languageCode: zh
-defaultContentLanguage: zh
-title: WMx Music
-theme: wmxmusic-theme
+﻿baseURL: "https://echolab.music/"
+locale: "zh-CN"
+title: "EchoLab"
+theme: "echolab"
 
-enableEmoji: true
-hasCJKLanguage: true
+taxonomies:
+  category: categories
 
-paginate:
-  pagerSize: 10
+params:
+  description: "音乐创作者的独立页面 - AI音乐、原创音乐、短视频作品展示"
+  author: "EchoLab"
 
-outputs:
-  home:
-    - HTML
-    - RSS
+permalinks:
+  works: "/works/:slug/"
 
 menu:
   main:
-    - name: 首页
-      url: /
+    - name: "首页"
+      url: "/"
       weight: 1
-    - name: 作品
-      url: /works/
+    - name: "AI音乐"
+      url: "/categories/ai/"
       weight: 2
-    - name: 关于
-      url: /about/
+    - name: "原创音乐"
+      url: "/categories/original/"
       weight: 3
-
-params:
-  author: wmxmusic
-  description: "WMx Music - AI音乐 × 原创音乐 × 短视频创作"
-  DateFormat: "2006-01-02"
+    - name: "短视频"
+      url: "/categories/videos/"
+      weight: 4
+    - name: "关于我"
+      url: "/about/"
+      weight: 5

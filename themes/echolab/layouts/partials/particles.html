@@ -1,0 +1,29 @@
+﻿<script>
+(function(){
+var c=document.getElementById('particles-canvas');
+if(!c)return;
+var ctx=c.getContext('2d');
+var particles=[],w,h;
+function resize(){w=c.width=window.innerWidth;h=c.height=window.innerHeight;}
+window.addEventListener('resize',resize);resize();
+function createParticle(){
+return{x:Math.random()*w,y:h+20,size:Math.random()*2.5+0.5,speed:Math.random()*0.4+0.15,opacity:Math.random()*0.5+0.2,dx:(Math.random()-0.5)*0.3};
+}
+for(var i=0;i<60;i++){var p=createParticle();p.y=Math.random()*h;particles.push(p);}
+function draw(){
+ctx.clearRect(0,0,w,h);
+for(var i=0;i<particles.length;i++){
+var p=particles[i];
+ctx.beginPath();
+ctx.arc(p.x,p.y,p.size,0,Math.PI*2);
+ctx.fillStyle='rgba(180,170,220,'+p.opacity+')';
+ctx.fill();
+p.y-=p.speed;
+p.x+=p.dx;
+if(p.y<-20){particles[i]=createParticle();}
+}
+requestAnimationFrame(draw);
+}
+draw();
+})();
+</script>

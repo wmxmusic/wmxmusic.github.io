@@ -1,0 +1,15 @@
+﻿<nav class="navbar">
+    <div class="nav-inner">
+        <a href="{{ "/" | relURL }}" class="nav-logo">EchoLab</a>
+        <ul class="nav-links" id="navMenu">
+            <li><a href="{{ "/" | relURL }}">主页</a></li>
+            <li><a href="{{ "/categories/ai/" | relURL }}">AI音乐</a></li>
+            <li><a href="{{ "/categories/original/" | relURL }}">原创音乐</a></li>
+            <li><a href="{{ "/categories/videos/" | relURL }}">短视频</a></li>
+            <li><a href="{{ "/about/" | relURL }}">关于我</a></li>
+        </ul>
+        <button class="hamburger" onclick="document.getElementById('navMenu').classList.toggle('open');this.classList.toggle('active')">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+</nav>

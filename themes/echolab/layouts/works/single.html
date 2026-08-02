@@ -1,0 +1,27 @@
+﻿{{ define "main" }}
+<div class="container">
+    <article class="work-single">
+        <header style="margin-bottom:2rem;">
+            <span class="page-badge" style="background:rgba(168,85,247,0.15);color:#c084fc;">{{ .Params.category }}</span>
+            <h1 class="page-title">{{ .Title }}</h1>
+            <p style="color:var(--text-secondary);margin-bottom:1rem;">{{ .Params.description }}</p>
+            <time style="color:var(--text-muted);font-size:0.85rem;">{{ .Date.Format "2006-01-02" }}</time>
+        </header>
+        {{ if .Params.embed }}
+        <div style="margin:2rem 0;border-radius:var(--radius-md);overflow:hidden;">
+            {{ .Params.embed | safeHTML }}
+        </div>
+        {{ end }}
+        <div style="color:var(--text-secondary);line-height:1.8;">
+            {{ .Content }}
+        </div>
+        {{ if .Params.award }}
+        <div style="margin-top:2rem;padding:1.5rem;background:linear-gradient(135deg,rgba(240,185,11,0.1),rgba(240,185,11,0.05));border-radius:var(--radius-md);border:1px solid rgba(240,185,11,0.2);">
+            <h3 style="color:#f0b90b;margin-bottom:0.5rem;">获奖信息</h3>
+            <p style="color:var(--text-secondary);">{{ .Params.award.competition }} - <strong>{{ .Params.award.prize }}</strong> ({{ .Params.award.date }})</p>
+            <button onclick="openCertModal('{{ .Title }}','{{ .Params.award.competition }}','{{ .Params.award.prize }}','{{ .Params.award.date }}')" style="margin-top:0.8rem;padding:0.5rem 1.2rem;background:linear-gradient(135deg,#f0b90b,#d4a40b);border:none;border-radius:30px;color:#000;font-weight:600;cursor:pointer;font-size:0.85rem;">查看证书</button>
+        </div>
+        {{ end }}
+    </article>
+</div>
+{{ end }}
