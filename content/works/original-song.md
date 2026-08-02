@@ -1,8 +1,15 @@
 ---
-title: 原创歌曲示例
-date: 2026-06-15
-tags: ["原创音乐", "独立制作", "流行"]
+AIGC:
+    Label: "1"
+    ContentProducer: 001191440300708461136T1XGW3
+    ProduceID: 2dc02c410d4799a8564beefc54554009_9192f6048e1411f1b8c1525400826444
+    ReservedCode1: DOnW4vlIZV1s6uXMMEOwgUQo+5St9WsZHsPoK2kiZ5C952HuXXokCvIcPwDU210GO61E6DiFAoK1isVsPAYhfyICVkrBpJk/KUAZy8poTlPlV6iieVX4KTn0wbKDX8axfGS9HMjUNyejlZBop6TKa9SBFlgGMuXLnZUAeCbCDfTsdXS1w/W/bY0o+EM=
+    ContentPropagator: 001191440300708461136T1XGW3
+    PropagateID: 2dc02c410d4799a8564beefc54554009_9192f6048e1411f1b8c1525400826444
+    ReservedCode2: DOnW4vlIZV1s6uXMMEOwgUQo+5St9WsZHsPoK2kiZ5C952HuXXokCvIcPwDU210GO61E6DiFAoK1isVsPAYhfyICVkrBpJk/KUAZy8poTlPlV6iieVX4KTn0wbKDX8axfGS9HMjUNyejlZBop6TKa9SBFlgGMuXLnZUAeCbCDfTsdXS1w/W/bY0o+EM=
 ---
+
+
 
 ## 原创歌曲示例
 
@@ -18,13 +25,17 @@ tags: ["原创音乐", "独立制作", "流行"]
 
 ### 试听
 
-> **提示**：将你的音频文件放在 `static/audio/` 目录下，然后替换下方 `src` 路径即可播放。
+> **操作说明**：去 [网易云音乐](https://music.163.com/) 打开你的歌曲页面 → 点击"生成外链播放器" → 复制 iframe 代码，替换下方示例中的 `src` 地址即可。
 
-<audio controls style="width:100%">
-  <source src="/audio/original-song.mp3" type="audio/mpeg">
-  您的浏览器不支持音频播放。请将音频文件放在 static/audio/ 目录下。
-</audio>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="86" src="//music.163.com/outchain/player?type=2&id=YOUR_SONG_ID&auto=0&height=66">
+</iframe>
+
+> **备选方案**：如果你的作品发布在汽水音乐，汽水音乐暂不支持外链嵌入，可以在页面中放置链接跳转：
+> ```html
+> <a href="https://www.douyin.com/your-song-link" target="_blank">在汽水音乐中收听</a>
+> ```
 
 ### 创作故事
 
 这首歌写于一个雨夜，灵感来自一段旅途中的见闻。旋律在脑海中反复回荡，回到家后立刻打开 DAW 记录下来。编曲上采用了温暖的钢琴铺底，配合电子鼓点营造出既怀旧又现代的氛围。
+*（内容由AI生成，仅供参考）*
