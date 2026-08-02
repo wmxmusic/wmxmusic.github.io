@@ -91,5 +91,32 @@ hugo
         frameborder="0" allowfullscreen>
 </iframe>
 ```
-*（内容由AI生成，仅供参考）*
+
+## 在线管理后台
+
+网站集成了 [Decap CMS](https://decapcms.org/) 在线管理后台，可在浏览器中直接编辑网站内容。
+
+### 访问后台
+
+打开浏览器访问：**https://wmxmusic.github.io/admin/**
+
+### 首次登录配置
+
+1. 打开 [GitHub Personal Access Tokens](https://github.com/settings/tokens) 页面
+2. 点击 **Generate new token** → **Generate new token (classic)**
+3. Note 填写 `Decap CMS`，Expiration 按需设置
+4. 勾选 **repo** 权限（含其下所有子权限）
+5. 点击 **Generate token**，复制生成的 Token（注意：Token 仅显示一次）
+6. 回到 https://wmxmusic.github.io/admin/ ，点击 **Login with GitHub**
+7. 输入 GitHub 用户名 `wmxmusic` 和刚才复制的 Token
+
+### 使用方式
+
+登录后即可在网页中：
+
+- **新建作品**：点击"作品"→"新建作品"，填写标题、日期和正文，保存后自动提交到 GitHub 并触发自动部署
+- **编辑作品**：点击已有作品进行修改
+- **编辑首页/关于页**：在"页面"集合中找到对应页面进行编辑
+
+所有保存操作会自动创建 Git 提交，几分钟后网站将自动更新。
 *（内容由AI生成，仅供参考）*
